@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: #ea80fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container{
+    width: 350px;
+    height: 420px;
+    background-color: #ea80fc;
+    border-radius: 15px;
+    box-shadow: 8px 8px 15px #ffb2ff, -8px -8px 15px #fff1ff;
+    text-align: center;
+   
+}
+
+
+form .myInput {
+    position: relative;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 0 15px 0;
+    border: none;
+    outline: none;
+    background: none;
+    transition: all 1s ease;
+    box-shadow: inset 3px 4px 5px #9c27b0, inset -3px -3px 7px #fff;
+    
+}
+
+.myInput:hover{
+    box-shadow: 3px 4px 5px #9c27b0, -3px -3px 7px #fff;
+    
+}
+
+.login-btn{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:#92fc80;
+    outline: none;
+    border-radius: 10px;
+    border-style: none;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.login-btn:hover {
+    background-color:#92fc80 ;
+    box-shadow: 3px 4px 5px #9c27b0, -3px -3px 7px #fff;
+}
+
+.login-icon{
+    font-size: 40px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.proj-name{
+    padding-top: 20px;
+}
+
+.sign, .forget{
+    color: #000000;
+    font-weight: 600;
+    cursor: pointer;
+}
+.sign-for{
+    padding-top: 10px;
+}
+
+form{
+    position: relative;
+}
+

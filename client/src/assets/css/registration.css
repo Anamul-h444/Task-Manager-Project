@@ -1,0 +1,65 @@
+:root{
+    --first-color:#ea80fc;
+    --second-color:#9c27b0;
+    --btn-color:#92fc80;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myCard{
+    width: 400px;
+    height: 500px;
+    background-color: var(--first-color);
+    border-radius: 40px;
+    box-shadow: 13px 13px 20px var(--second-color), -13px -13px 20px #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.form .reg-input {
+    position: relative;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    margin: 15px 0 15px 0;
+    border: none;
+    outline: none;
+    background: none;
+    transition: all 0.5s ease;
+    box-shadow: inset 3px 4px 5px var(--second-color), inset -3px -4px 7px #fff;
+    
+}
+
+.form .reg-input:hover{
+    box-shadow: 3px 4px 5px var(--second-color), -3px -4px 7px #fff;
+    
+}
+
+
+.reg-btn{
+    width: 250px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color:var(--btn-color);
+    outline: none;
+    border-radius: 10px;
+    border-style: none;
+    transition: all 0.5s ease;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.reg-btn:hover {
+    box-shadow: 3px 4px 5px var(--second-color), -3px -3px 7px #fff;
+}
